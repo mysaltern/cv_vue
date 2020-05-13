@@ -24,26 +24,7 @@
         <div class="content-area">
           <div class="animated-sections">
             <!-- Home Subpage -->
-            <section data-id="home" class="animated-section start-page">
-              <div class="section-content vcentered">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="title-block">
-                      <h2>Mohammad Saltanatpouri</h2>
-                      <div class="owl-carousel text-rotation">
-                        <div class="item">
-                          <div class="sp-subtitle">backend-Developer</div>
-                        </div>
-
-                        <div class="item">
-                          <div class="sp-subtitle">Frontend-developer</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+            <app-index></app-index>
             <!-- End of Home Subpage -->
 
             <!-- Resume Subpage -->
@@ -1098,10 +1079,11 @@
 
 <script>
 import appHeader from "./Pages/Shared/Header";
-
+import appIndex from "./Pages/Index//Index";
 export default {
   components: {
-    appHeader: appHeader
+    appHeader: appHeader,
+    appIndex:appIndex
   }
 };
 </script>

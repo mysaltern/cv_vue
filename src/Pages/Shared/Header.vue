@@ -16,6 +16,8 @@
           <i class="fas fa-house-user"></i>
           <span class="link-text">Home</span>
         </a>
+
+        
       </li>
       <li>
         <a href="#about-me" class="nav-anim">
